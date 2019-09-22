@@ -10,18 +10,18 @@ source:
   sha256: 0e32c1c613f883a436d53ad658c0377abd84ac0235d940c135e11c94a1baefd0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   host:
-    - python >3.4
+    - python >3.6
     - pip
     - setuptools_scm
   run:
-    - python >3.4
-    - matplotlib >2.1
+    - python >=3.6
+    - matplotlib-base >3.1
 
 test:
   imports:
