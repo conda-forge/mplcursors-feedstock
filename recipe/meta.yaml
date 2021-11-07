@@ -1,5 +1,5 @@
 {% set name = "mplcursors" %}
-{% set version = "0.4" %}
+{% set version = "0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/m/mplcursors/mplcursors-{{ version }}.tar.gz
-  sha256: a8646437e35acab37dc07ef0fca6bc8f66ffbae99d4d5a441ea254a94aed1d24
+  sha256: c3dd848fecf46fbc487408a4060a2e103a5567c10444df0eac8b308c4054e54d
 
 build:
   number: 0
